@@ -1,0 +1,140 @@
+body{
+     font-family:"Centery Gthic", Calibr,serif;
+     font-size: 13px;
+     margin: 0px;
+     padding:0px;
+     background-color:#609288;
+     
+    
+    
+}
+h1{
+     font-size:80px;
+     font-weight:normal;
+     text-align: center;
+     color:#ffff;
+}
+footer{
+     height: 80px;
+     padding-top: 30px;
+     text-align: center;
+     background-color:#246D5F;
+     border-top: 2px solid #246D5F;
+     color:#ffff;
+
+}
+nav ul{
+     margin: 0px;
+     padding: 0px;
+}
+nav{
+     width:100%;
+     background:#0D4F48 /*BC8F8F*/;
+}
+nav li {
+     list-style: none;
+     /*float: left;*/
+}
+nav a {
+    /* display:inline-block;*/
+     text-decoration: none;
+     padding: 20px 30px;
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 15px;
+}
+.table{
+    display: table;
+     margin: 0 auto;
+     
+}
+.menu:hover{
+     border-top: 5px solid #6A9E99;
+     background-color:RGBa(216,191,216,0.15);
+     
+}
+
+
+nav li:hover a {
+     padding:15px 30px 20px 30px;
+     
+}
+
+
+////////////////////////////////////////////////
+li:hover a {
+     padding:15px 30px 20px 30px;
+     
+}
+ li {
+     list-style: none;
+     float: left;
+}
+a {
+     display:inline-block;
+     text-decoration: none;
+     padding: 20px 30px;
+     color: #00221B;
+     text-transform: uppercase;
+     font-size: 15px;
+}
+.main-nav{
+     display: flex;
+
+}
+
+.push{
+     margin-right: auto;
+
+}
+-----------------------------------------
+.search-box{
+      
+     position: absolute;
+     top: 50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     background: #b2b6bb;
+     height:40px;
+     border-radius:40px;
+     padding:10px;
+ }
+ .search-box:hover > .search-txt{
+     width: 240px;
+     padding:0 6px;
+     background: #b2b6bb;
+     border-radius: 10%;
+ 
+ }
+ .search-txt:hover > .search-txt{
+     background:rgb(153, 36, 36);
+ 
+ }
+ 
+ .search-txt{
+     border: none;
+     background: none;
+     outline: none;
+     float: left;
+     padding: 0;
+     color: white;
+     font-size: 16px;
+     transition:0.4s;
+     line-height:  40px;
+     width:0px
+ }
+
+ .search-btn{
+     
+     color:#609288;
+     float:right;
+     width:40px;
+     height:40px;
+     border-radius:50%;
+     background: #2f3640;
+     display:flex;
+     justify-content:center;
+     align-items: center;
+     transition: 0.4s; 
+      
+ }
